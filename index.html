@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Design Mockup Portfolio </title>
+    <!--  google font lato -->
+   <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel="stylesheet" type="text/css">
+    <!-- jquery file -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified CSS, shared link from bootstrap site -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- my personalized stylesheet -->
+    <link rel="stylesheet" href="framework/css/main.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row top-buffer">
+            <div class="col-md-6">
+                <img id="udacityLogo" src="images/udacityLogo.png" class="title-logo img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super txt-thin"> Jane Doette </h1>
+                <h3 id="frontEndNinja"> Front End Ninja </h3>
+            </div>
+        </div>
+        <!-- featured content -->
+        <div class="row">
+            <div id="stylizedLine" class="col-md-12">
+              <hr>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-response" src="images/bigPhoto.png" alt="Typography Background">
+          </div>
+        </div>
+        <!-- featured quadrant -->
+        <div class="row">
+          <div id="featuredWork" class="col-md-12">
+            <h2 class="txt-muted"> Featured Work </h2>
+          </div>
+        </div>
+        <!-- bottom quadrant images -->        
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/appStoreSC.png" class="img-responsive" alt="appify" data-toggle="modal" data-target="#appify">
+                <h3 class="sectionTitles">APPIFY</h3>
+                <h4 class="txt-thin">https://github.com/udacity/Appify/</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="images/sunflowerSC.png" height="264" width="402" class="img-responsive" alt="sunflower" data-toggle="modal" data-target="#sunflower">
+                <h3 class="sectionTitles">SUNFLOWER</h3>
+                <h4 class="txt-thin">https://github.com/udacity/Sunflower/</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="images/artPhoto.png" height="263" width="403" class="img-responsive" alt="bokeh" data-toggle="modal" data-target="#bokeh">
+                <h3 class="sectionTitles">BOKEH</h3>
+                <h4 class="txt-thin">https://github.com/udacity/Bokeh/</h4>
+            </div>
+        </div>
+        <!--end container div below-->
+    </div>
+<!-- Modal project 1 : appify -->
+  <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Appify: Online Resume</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/appStoreSC.png">
+        Here's where my fantastic modal text comes in for appify.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal project 2 : sunflower -->
+
+ <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Sunflower: Online Resume</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/sunflowerSC.png">
+        Here's where my fantastic modal text comes in for Sunflower.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal project 2 : bokeh -->
+ <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Bokeh: Online Resume</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/artPhoto.png">
+        Here's where my fantastic modal text comes in for Bokeh.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

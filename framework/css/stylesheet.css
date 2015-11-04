@@ -1,0 +1,47 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-boz-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#topQuadrant {
+display: flex;
+}
+
+.tinyBox {
+	float: left;
+}
+
+.tinyBox > h4 {
+	font-size: 13px;
+	color: grey;
+}
+
+
+//left quadrant
+
+#orangeSquare {
+	background-color: F8981C;
+}
+
+#greySquare {
+	background-color: BCBBBB;
+}
+
+#hunterGreenSquare {
+	background-color: 747704;
+}
+
+#featuredWork {
+	display: flex;
+}
+
+.bottomRowImg {
+	padding: 15px;
+}
+// middle quadrant
+
+
+
+// bottom quadrant

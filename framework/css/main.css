@@ -1,0 +1,70 @@
+/* responsive design elements */
+
+img, embed, object, video {
+	max-width: 100%
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #7f7f7f; 
+	font-weight: 400;
+}
+
+.txt-muted {
+	color: #b2b2b2;
+}
+
+.txt-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 5em;
+}
+
+.title-logo {
+	martin-top: 20px;
+}
+
+#udacityLogo {
+	width: 25%;
+	height: auto;
+}
+
+.top-buffer {
+	margin-top: 2.5em;
+}
+
+#frontEndNinja {
+	font-size: 1.9em;
+	margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/// HELP HERE - make line thicker
+#stylizedLine {
+	font-weight: 500;
+}
+
+#featuredWork {
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-size: 3.3em;
+	letter-spacing: 2px;
+}
+
+.sectionTitles {
+	font-size: 3em;
+	letter-spacing: 1.5px;
+	margin-top: .3em;
+}
+
+
+h4 {
+	font-size: 1.2em;
+	margin-top: 2px;
+}
+
